@@ -1,11 +1,12 @@
-import React from 'react';
+import Page from "./components/Page/Page"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      ulla
-    </div>
+    <>
+  <Page/>  
+    </>
+
   );
 }
 
