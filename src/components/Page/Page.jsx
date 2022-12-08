@@ -3,7 +3,6 @@ import CardList from '../CardList/CardList';
 import SearchInput from '../SearchInput/SearchInput';
 import './Page.css'
 
-
 const Page = () => {
   const [searchField, setSearchField] = useState('');
   const [monsters, setMonsters] = useState([]);
@@ -31,7 +30,6 @@ const Page = () => {
   return (
     <div className='page'>
       <h1 className='page__title'>Monsters Search</h1>
-
       <SearchInput
         className='monsters-search-box'
         onChangeHandler={onSearchChange}
